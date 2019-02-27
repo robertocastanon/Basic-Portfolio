@@ -1,0 +1,25 @@
+body {
+    background-color: powderblue;
+  }
+  .name {
+    color:white;
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    background-color: blue;
+  }
+  .about_me {
+    color: #4aaaa5;
+  }
+  p {
+    color:#777777;
+  }
+  .bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
