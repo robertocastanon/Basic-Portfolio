@@ -1,5 +1,20 @@
+html, body {
+  background-image:url(../images/crossline-lines.png);
+  background-color:#eaeaea;
+  height: 100%;
+}
+
 body {
-  background-color:#eaeaea ;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 header {
@@ -51,12 +66,21 @@ img {
   background-color:white;
   margin: auto;
   text-align: center;
+
+  /*
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
 }
+
 
 footer {
   background-color:#666666;
   padding: 10px;
   text-align: center;
   color: white;
+  border-top: 8px solid #4aaaa5
 }
 
