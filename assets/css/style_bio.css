@@ -23,7 +23,9 @@ header {
   text-align: center;
   border: 2px #cccccc;
 
-  /*margin: auto;*/
+  /*
+  margin: auto;
+  */
 }
 
 
@@ -48,7 +50,7 @@ header {
     padding-top: 50px;
 }
 
-/* index start*/
+/* index start */
 
 .about_me {
   color: #4aaaa5;
@@ -73,10 +75,11 @@ img {
   float: right;
   font-family: Arial;
   border: 2px #dddddd;
-  padding: 20px;
+  padding: 30px;
   background-color:white;
   margin: auto;
   text-align: center;
+  width: 600px;
 
   /*
   position: fixed;
@@ -86,9 +89,42 @@ img {
   */
 }
 
-/* index end*/
+/* index end */
 
-/* contact start*/
+/* portfolio start */
+
+.portfolio {
+  color: #4aaaa5;
+  font-family: Georgia;
+  text-align: left;
+}
+
+div.gallery {
+  margin: auto;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+  background-color:#ffffff;
+  padding: 30px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* portfolio end */
+
+/* contact start */
 
 .contact {
   color: #4aaaa5;
@@ -106,6 +142,7 @@ img {
     background-color:white;
     margin: auto;
     text-align: center;
+    width: 600px;
 }
 
 .submit {
@@ -118,7 +155,7 @@ img {
 
 
 
-/* contact end*/
+/* contact end */
 
 footer {
   background-color:#666666;
