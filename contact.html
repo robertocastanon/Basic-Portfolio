@@ -2,23 +2,55 @@
 <html lang="en-US">
     <head>
 
-        <meta type="description" content="Rob's Contact Info">
+        <meta type="description" content="Rob's Basic Contact Page">
         <title>Basic Contact Page</title>
+        <link rel="stylesheet" href="assets/css/style_bio.css">
     </head>
+    
 
     <body>
-        <h1>Roberto Castanon</h1> 
-        <ul>
-            <l>About</l>
-            <l>Portfolio</l>
-            <l>Contact</l>
-        </ul>
-        <h2>Contact</h2>
-        <h3>Name</h3>
-        <h3>Email</h3>
-        <h3>Message</h3>
+            <header>
+                <div class="name_index">
+                        <h1>Roberto Castanon</h1>
+                </div>
+                
+                    <div class="bar">
+                        <p>About | Portfolio | Contact</p>
+                    </div>
+            </header>
+       <br> 
 
-    </body>
+<div class="form">
+       <form action="/action_page.php">
+
+        <div class="contact">
+            <h2>Contact</h2>
+
+            <hr>
+            
+        </div>
+
+        Name: <input type="text"
+        name="name" class="name" value="First Last"><br>
+        Email: <input type="text"
+        name="email" class="email" value="example@gmail.com"><br>
+        Message: <textarea name="message" id="message" class="message" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Submit" class="submit">
+    
+    </form>
+</div>
 
 
-</html>
+       <br>
+    
+       <div class="content">
+           
+       </div>
+   
+       <footer class="footer">
+               <p>Copyright</p>
+       </footer>
+   
+       </body>
+   </html>
