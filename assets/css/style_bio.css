@@ -52,6 +52,10 @@ header {
 
 /* link edit */
 
+a {
+  color:#777777;
+}
+
 a:link {
   text-decoration: none;
 }
