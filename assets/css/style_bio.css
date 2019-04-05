@@ -104,7 +104,7 @@ img {
   background-color:white;
   margin: auto;
   text-align: center;
-  width: 600px;
+  width: 400px;
 
   /*
   position: fixed;
@@ -128,7 +128,7 @@ div.gallery {
   margin: auto;
   border: 1px solid #ccc;
   float: left;
-  width: 600px;
+  width: 400px;
   background-color:#ffffff;
   padding: 30px;
 }
@@ -169,7 +169,7 @@ div.desc {
     background-color:white;
     margin: auto;
     text-align: center;
-    width: 600px;
+    width: 400px;
 }
 
 .submit {
@@ -192,3 +192,9 @@ footer {
   border-top: 8px solid #4aaaa5
 }
 
+
+@media only screen and (min-width: 784px) {
+  .form {
+    width: 800px;
+  }
+}
